@@ -1,0 +1,24 @@
+
+     								Real time face expression detection
+
+
+
+This folder contains 4 files.
+Main.py
+Model.h5 
+Jupyter source file (.ipynb)
+Harrcascade.xml file
+
+Before running the Main.py model,
+i. Replace the face_classifier and classifier variables with raw location of those 2 files.
+ii. Install required libraries such as
+	pip install keras
+	pip install tensorflow
+	pip install opencv-python
+ 
+
+Example:-
+face_classifier = cv2.CascadeClassifier(r'C:\Users\HP\Desktop\ML_Group_01\Facial Expression Detector\haarcascade_frontalface_default.xml')
+classifier =load_model(r'C:\Users\HP\Desktop\ML_Group_01\Facial Expression Detector\model.h5')
+
+Then run the Main.py
